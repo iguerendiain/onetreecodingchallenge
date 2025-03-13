@@ -1,0 +1,31 @@
+<resources>
+    <string name="tasklist_title">My Tasks</string>
+    <string name="tasklist_add">Add New</string>
+    <string name="tasklist_empty">You have no tasks</string>
+    <string name="tasklist_empty_filtered">You have no %s tasks</string>
+    <string name="tasklist_empty_create">Try creating a new one</string>
+    <string name="tasklist_filter_all">all</string>
+    <string name="tasklist_filter_done">done</string>
+    <string name="tasklist_filter_pending">pending</string>
+    <string name="tasklist_button_setdone">Finish Task!</string>
+    <string name="tasklist_button_setundone">Mark as pending</string>
+
+    <string name="taskdetails_create_title">Create New Task</string>
+    <string name="taskdetails_edit_title">Edit Task</string>
+    <string name="taskdetails_deleteconfirm_title">Delete Task</string>
+    <string name="taskdetails_deleteconfirm_description">Are you sure you want to delete this task? This action cannot be undone.</string>
+    <string name="taskdetails_input_name_label">Name</string>
+    <string name="taskdetails_input_description_label">Description</string>
+    <string name="taskdetails_button_save">Save</string>
+    <string name="taskdetails_switch_done_label">Is done</string>
+    <string name="taskdetails_location_loading">Loading location...</string>
+    <string name="taskdetails_location_found">Location found!</string>
+    <string name="taskdetails_location_reload">Reload location</string>
+    <string name="taskdetails_location_clear">Clear location</string>
+    <string name="taskdetails_location_empty">No location</string>
+
+
+
+    <string name="common_delete">Delete</string>
+    <string name="common_cancel">Cancel</string>
+</resources>

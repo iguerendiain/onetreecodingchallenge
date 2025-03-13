@@ -1,0 +1,25 @@
+<resources>
+    <string name="tasklist_title">Mis tareas</string>
+    <string name="tasklist_add">Agregar nueva</string>
+    <string name="tasklist_empty">Todavía no tienes tareas</string>
+    <string name="tasklist_empty_filtered">No tienes tareas %s</string>
+    <string name="tasklist_empty_create">Prueba creando una</string>
+    <string name="tasklist_filter_all">todas</string>
+    <string name="tasklist_filter_done">listas</string>
+    <string name="tasklist_filter_pending">pendientes</string>
+    <string name="tasklist_button_setdone">¡Finalizar Tarea!</string>
+    <string name="tasklist_button_setundone">Marcar como pendiente</string>
+
+    <string name="taskdetails_create_title">Crear Nueva Tarea</string>
+    <string name="taskdetails_edit_title">Editar Tarea</string>
+    <string name="taskdetails_deleteconfirm_title">Eliminar Tarea</string>
+    <string name="taskdetails_deleteconfirm_description">Estás seguro que quieres eliminar esta tarea? Esta acción no puede deshacerse.</string>
+    <string name="taskdetails_input_name_label">Nombre</string>
+    <string name="taskdetails_input_description_label">Descripción</string>
+    <string name="taskdetails_button_save">Guardar</string>
+    <string name="taskdetails_switch_done_label">Realizada</string>
+
+    <string name="common_delete">Eliminar</string>
+    <string name="common_cancel">Cancelar</string>
+
+</resources>

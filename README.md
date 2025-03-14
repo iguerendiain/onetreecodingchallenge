@@ -69,7 +69,7 @@ I could also have constructred a separate ViewModel for all GPS data and/or task
 Most of the stuff under `core/ui` is code written by me for other projects in the past. I keep reusing and updating it. In this case I ported it from Android to Kotlin Multiplatform. In some cases you may find it's over engineeried but that's just because they are part of a bigger set of tools that work wogether (specially the `dialog` package).
 
 ### Running the application
-There's no secial setup beyond what's required by a normal Kotlin Multiplatform app. In Android's case the project should be opened in Android Studio (should work with IntelliJ Idea too haven't tested it ) and just press the run button. More information can be found in the [official Kotlin Multiplaform documentation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html#run-your-application).
+There's no special setup beyond what's required by a normal Kotlin Multiplatform app. In Android's case the project should be opened in Android Studio (should work with IntelliJ Idea too haven't tested it ) and just press the run button. More information can be found in the [official Kotlin Multiplaform documentation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html#run-your-application).
 
 ### Considerations and clarifications
 - As with other parts of the app, the `strings.xml` used for internationalization of the app could be split in different files if the scope of the app would require it.

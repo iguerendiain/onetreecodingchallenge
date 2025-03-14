@@ -49,12 +49,12 @@ Kotlin Multiplatform provides a way of "extending" classes on each platform the 
 ### Models, DBModels, Repositories and model mapper
 With the objective of easier changes in repository implementation as well as decoupling the actual source of information from the rest of the app I handle two sets of models. RoomDB requires classes with annotations to handle the underlaying DB, theses classes are found in `core/storage/model` (Actually only one class in this case `TaskDB`) and the app uses the models in `core/domain/model` (Again, only one in this case `Task`).
 
-The implementation of the repositories are responsable for converting between these two types of classes, the RoomDB ones could not even exists if the storage mechanism would be different, like using raw SQLite or storing in files, etc...
+The implementation of the repositories are responsible for converting between these two types of classes, the RoomDB ones could even not exists if the storage mechanism would be different, like using raw SQLite or storing in files, etc...
 
 For ease of use, I created the object `DBModelMapper` found in `core/storage/ModelMapper.kt` with functions that converts between `Task` and `TaskDB`. In bigger apps I may use libraries such as Retrofit which would have their own classes for backend communication and their own mappers for converting back and forth between those classes and the ones used by the app, done again, in the repository implementations.
 
 ### Screen composables and Content composables
-I always try to shared as primitive data as posible between components (including composables) in my code. I do this to separate the responsabilities and increase flexibility and ease of testing. That's why, for each screen I create a composable for the screen that's responsible for handling navigation and viewmodel interactions and a composable for the content that only gets exactly what it needs and the corresponding callbacks for interaction.
+I always try to share as primitive data as posible between components (including composables) in my code. I do this to separate the responsabilities and increase flexibility and ease of testing. That's why, for each screen I create a composable for the screen that's responsible for handling navigation and viewmodel interactions and a composable for the content that only gets exactly what it needs and the corresponding callbacks for interaction.
 
 As you can see in `TaskListContent`, I cannot always pass just primitive data, in this case I'm passing a list of Tasks, it's always good to find a healthy balance, if I were to pass a list of each value that the task is made of it would greatly reduce the maintenability of the code.
 

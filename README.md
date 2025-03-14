@@ -25,7 +25,7 @@ App.kt                              Starting point of the app
 - core/domain                       Business models and repositories
 - core/domain/model                 Business models
 - core/domain/repository            Repository definitions (interfaces)
-- core/domain/repositoryimpl        Repository implementarions
+- core/domain/repositoryimpl        Repository implementations
 - core/storage                      Database init and configuration
 - core/theme                        App's theming
 - core/theme/db                     Definition of colors (and in bigger apps also fonts)

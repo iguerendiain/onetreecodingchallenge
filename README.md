@@ -17,7 +17,6 @@ The app was built based on clean architecture principles and following the Model
 ### Directory tree
 
 ```
-App.kt                              Starting point of the app
 - app                               App's init or setup files 
 - core                              Common app code
 - core/di                           Koin init and modules setup

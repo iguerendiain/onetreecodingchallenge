@@ -13,7 +13,6 @@ The app was built based on clean architecture principles and following the Model
 - [Room](https://developer.android.com/kotlin/multiplatform/room): Database
 - [NavigationCompose](https://developer.android.com/develop/ui/compose/navigation): Routing and navigation between screens
 - [KotlinX Datetime](https://github.com/Kotlin/kotlinx-datetime): Used for generation of epoch value
-  Arbol de directorios
 
 ### Directory tree
 
